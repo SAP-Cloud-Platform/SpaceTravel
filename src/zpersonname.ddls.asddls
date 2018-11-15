@@ -30,7 +30,7 @@
       lineItem: [ {
                     type: #FOR_ACTION,
                     dataAction: 'DO_SOMETHING',
-                    label: 'Do Something',
+                    label: 'Call for assessement',
                     invocationGrouping: #ISOLATED
                    }
                  ]
