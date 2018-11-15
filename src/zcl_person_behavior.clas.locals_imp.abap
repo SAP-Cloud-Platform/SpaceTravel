@@ -87,7 +87,7 @@ CLASS lcl_saver IMPLEMENTATION.
 
     LOOP AT lt_do_somethings INTO DATA(ls_do_a_thing).
       ls_do_something-id = ls_do_a_thing-id.
-      ls_do_something-something = 'Status'.
+      ls_do_something-something = 'Called for assessement'.
       MODIFY ztperson FROM @ls_do_something.
     ENDLOOP.
   ENDMETHOD.
