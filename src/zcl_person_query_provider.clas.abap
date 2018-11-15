@@ -42,6 +42,7 @@ CLASS zcl_person_query_provider IMPLEMENTATION.
         io_response->set_data( it_data = lt_persons ).
       CATCH cx_root.
         "Should not happen! :)
+        zst_exceptionhandler=>odata_exception_handler( io_response ).
     ENDTRY.
   ENDMETHOD.
 
