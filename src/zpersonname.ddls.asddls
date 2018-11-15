@@ -51,8 +51,8 @@
   LastName : abap.char( 40 ) ; 
   
   @UI: {
-      lineItem: [ { position: 40, label: '' } ],
-      identification: [{ position: 40, label: '' }]
+      lineItem: [ { position: 40, label: 'Status' } ],
+      identification: [{ position: 40, label: 'Status' }]
       }      
   Something : abap.char( 40 ) ; 
  } 
