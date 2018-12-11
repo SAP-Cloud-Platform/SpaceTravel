@@ -3,7 +3,6 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <BDEF>
-    <METADATA>
      <NAME>ZPERSONNAME</NAME>
      <TYPE>BDEF/BDO</TYPE>
      <VERSION>active</VERSION>
@@ -36,7 +35,6 @@
        </LINKS>
       </LANGUAGE>
      </SYNTAX_CONFIGURATION>
-    </METADATA>
    </BDEF>
   </asx:values>
  </asx:abap>
